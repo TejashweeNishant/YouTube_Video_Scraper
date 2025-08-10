@@ -17,20 +17,21 @@ The workflow is split into **three Jupyter notebooks**, each handling a differen
      - Publish Date
      - Video URL
 
-2. **`02_youtube_scraping_with_descriptions.ipynb`**  
+2. **`02_youtube_scraping_with_descriptions_and_likes.ipynb`**  
    - Extends the scraper to also collect **video descriptions** for deeper analysis.  
    - Data collected includes:
      - All fields from Notebook 1
      - Video Description
+     - Likes
 
 3. **`03_data_cleaning_and_eda.ipynb`**  
    - Cleans and preprocesses the scraped dataset.  
    - Performs **Deep EDA** with visualizations:
      - Views & Likes distributions
      - Top performing videos
-     - Engagement rate analysis
-     - Keyword frequency in video titles
-     - Time-series analysis of content performance  
+     - Views & Likes Over Time
+     - Top 10 Keywords in Titles
+     - Posting Frequency  
    - Extracts insights and trends from the dataset.
 
 ---
